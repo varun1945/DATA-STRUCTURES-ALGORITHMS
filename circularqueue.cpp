@@ -5,12 +5,12 @@
 
 using namespace std;
 
-struct Queue
+struct Queu
 {
     int rear,first;
     int *q;
     int size;
-    Queue(int num)
+    Queu(int num)
     {
         this->size = num;
         q = new int[size];
@@ -70,7 +70,7 @@ struct Queue
 
 int main()
 {
-    Queue q(5);
+    Queu q(5);
 
     q.enq(1);
     q.enq(2);
